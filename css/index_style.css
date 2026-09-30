@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+body {
+  font-family: "segoe ui light";
+}
+.color-mine {
+  color: #ff7d5f !important;
+}
+.rounded-mine {
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+.btn-mine {
+  background-color: #ff7d5f;
+}
+.bg-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+  background-image: url(../images/mainBg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+nav .logo {
+  width: 70px;
+}
+
+.searchInput {
+  top: 85%;
+}
+.category {
+  background-image: url(../images/category-bg.png);
+  background-size: cover;
+  background-position: center center;
+  
+}
+.navbar-nav .nav-item a {
+  color: #960000;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Molle", cursive;
+}
+
+/* ============================================ */
+.h1{
+   font-family: "Petit Formal Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+#recipesSearch h2{
+ font-family: "Damion", cursive;
+
+  font-size:  50px;
+  font-weight: 600;
+}
+#recipesSearch p{
+     font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #6e6a6a;
+}
+#rowData .item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+#rowData .item:hover {
+  transform: translateY(-6px);
+}
+
+#rowData .item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+#rowData .item h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 15px 15px 5px;
+}
+
+#rowData .item p {
+  margin: 0 15px 15px;
+  color: #888;
+}
+
+.navbar .nav-link {
+  cursor: pointer;
+}
+.fruit-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-fruit {
+  flex: 1;
+  min-width: 120px;
+  max-width: 200px;
+  padding: 10px 0;
+  margin-bottom: 4px;
+  background: #fff;
+  color: #2c4fb3;
+  border: none;
+  border-radius: 10px;
+  font-weight: 900 !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.167);
+}
+.btn-fruit:hover {
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.231);
+  transform: translateY(-6px);
+}
+/* MANGO */
+.btn-fruit-mango {
+  font-family: "Fresh Fruit", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
+  color: #fff;
+}
+.btn-fruit-mango:hover {
+  color: #eb6c22;
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
+}
+/* MELON */
+.btn-fruit-melon {
+  font-family: "Fresh Fruit", sans-serif;
+  background: linear-gradient(135deg, #ff3b30 0%, #ff5a5f 45%, #6bcb77 100%);
+  color: #fff;
+}
+.btn-fruit-melon:hover {
+  color: rgb(28, 151, 28);
+  background: linear-gradient(135deg, #ff3b30 0%, #ff5a5f 45%, #6bcb77 100%);
+  color: #fff;
+}
+/* NECTARINE */
+.btn-fruit-nectarine {
+  font-family: "Fresh Fruit", sans-serif;
+  background: linear-gradient(
+    90deg,
+    #eec1ad 0%,
+    #dbac98 25%,
+    #d29985 50%,
+    #c98276 75%,
+    #e35d6a 100%
+  );
+  color: #fff;
+}
+.btn-fruit-nectarine:hover {
+  color: #60140c;
+  border-color: #f5a623;
+  background: linear-gradient(
+    90deg,
+    #eec1ad 0%,
+    #dbac98 25%,
+    #d29985 50%,
+    #c98276 75%,
+    #e35d6a 100%
+  );
+}
+/* ORANGE */
+.btn-fruit-orange {
+  font-family: "Fresh Fruit", sans-serif;
+  background: linear-gradient(90deg, #c21500 0%, #ffc500 100%);
+  color: #fff;
+}
+.btn-fruit-orange:hover {
+  color: #fff3e0;
+  border-color: #f5a623;
+  background: linear-gradient(90deg, #c21500 0%, #ffc500 100%);
+}
+/* PAPAYA */
+.btn-fruit-papaya {
+  font-family: "Fresh Fruit", sans-serif;
+  background: linear-gradient(135deg, #ffb347, #ff7043);
+  color: #fff;
+}
+.btn-fruit-papaya:hover {
+  color: #8e5b0a;
+  border-color: #f5a623;
+  background: linear-gradient(135deg, #ffb347, #ff7043);
+}
+/* ALL */
+.btn-fruit.btn-all {
+  font-family: "Fresh Fruit", sans-serif;
+  color: #fff;
+  border-color: #e69a1c;
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
+
+.btn-fruit.btn-all:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
